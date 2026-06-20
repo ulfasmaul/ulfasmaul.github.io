@@ -203,7 +203,7 @@ export default function Hero() {
 
         {/* CV */}
         <a
-           href="https://CV"
+           href="https://drive.google.com/file/d/1ezTXN_SnR5ndl-TMs-9VG5gVgshUc9cF/view?usp=sharing"
            target="_blank"
            rel="noopener noreferrer"
            className="btn btn-outline btn-square"
