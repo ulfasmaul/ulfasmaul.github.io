@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.0a3f4157.css",
-    "main.js": "/static/js/main.63a3918a.js",
+    "main.css": "/static/css/main.4e4ef0ba.css",
+    "main.js": "/static/js/main.dbdcf36b.js",
     "static/media/avatar-ulfa.png": "/static/media/avatar-ulfa.a0ab891b1e0b61134d75.png",
     "index.html": "/index.html",
-    "main.0a3f4157.css.map": "/static/css/main.0a3f4157.css.map",
-    "main.63a3918a.js.map": "/static/js/main.63a3918a.js.map"
+    "main.4e4ef0ba.css.map": "/static/css/main.4e4ef0ba.css.map",
+    "main.dbdcf36b.js.map": "/static/js/main.dbdcf36b.js.map"
   },
   "entrypoints": [
-    "static/css/main.0a3f4157.css",
-    "static/js/main.63a3918a.js"
+    "static/css/main.4e4ef0ba.css",
+    "static/js/main.dbdcf36b.js"
   ]
 }
