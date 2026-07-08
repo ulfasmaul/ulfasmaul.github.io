@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import {
   AcademicCapIcon,
   BriefcaseIcon,
@@ -24,8 +24,43 @@ const educations = [
     desc: "Designed and developed a web-based Blood Bag Management Information System for the Indonesian Red Cross (UTD PMI) using PHP Laravel and MySQL to improve blood donor operations and blood bag management. The system streamlined donor data recording, blood inventory tracking, and operational reporting, enabling faster access to information and improving service efficiency. By digitizing manual processes, the system enhanced data accuracy, accessibility, and monitoring of blood donation activities.",
     gpa: "",
   },
+  {
+    logo: "/LogoPoltek.jpg",
+    school: "Politeknik Telkom Bandung",
+    degree: "Diploma’s Degree in Informatics Management",
+    duration: "2008 - 2011",
+    desc: "Designed and developed a web-based Blood Donor Information System for the KSR PMI Unit at Telkom Polytechnic using PHP and MySQL to enhance the efficiency of blood donation operations within the campus community. The system streamlined donor data management and operational reporting, enabling faster access to information and supporting more effective decision-making. By digitizing previously manual processes, the solution improved data accuracy, accessibility, and the monitoring of blood donation activities, resulting in more efficient and reliable operational workflows.",
+    gpa: "",
+  },
 ];
 
+
+function ReadMore({ text, maxLength = 180 }) {
+  const [expanded, setExpanded] = useState(false);
+
+  if (!text) return null;
+
+  const shouldTruncate = text.length > maxLength;
+
+  return (
+    <div className="mt-6">
+      <p className="text-gray-600 leading-8">
+        {expanded || !shouldTruncate
+          ? text
+          : `${text.substring(0, maxLength)}...`}
+      </p>
+
+      {shouldTruncate && (
+        <button
+          onClick={() => setExpanded(!expanded)}
+          className="mt-3 text-blue-600 font-medium hover:underline"
+        >
+          {expanded ? "Read Less" : "Read More"}
+        </button>
+      )}
+    </div>
+  );
+}
 
 export default function About() {
   useEffect(() => {
@@ -45,7 +80,7 @@ export default function About() {
                 About Me
               </p>
               <p className="mt-6 text-lg leading-8" text-justify data-aos="fade-right" style={{ textAlign: "justify" }}>
-                I am an analytical and data-driven professional who is passionate about leveraging data to drive informed business decisions. Through hands-on experience in data analytics and business intelligence projects, I have delivered end-to-end analyses involving campaign effectiveness, customer segmentation, and interactive dashboard development. These projects have enabled me to generate actionable insights that support business performance and improve decision-making. I have developed strong proficiency in SQL, Python, and Tableau, along with analytical thinking, problem-solving, communication, and cross-functional collaboration skills. By combining technical expertise with a business-oriented mindset and the ability to translate complex data into meaningful recommendations, I am well-equipped to contribute as a Data Analyst and help organizations make data-driven decisions.
+                I am an analytical and detail-oriented professional with over 10 years of experience as a Technical Writer across technology companies, recognized for transforming complex technical information into clear, user-focused documentation through accuracy, continuous learning, and cross-functional collaboration. To transition into Data Analytics, I completed an intensive Full-Stack Data Analytics program and delivered end-to-end analytics projects using Excel, SQL, Python, Tableau, and statistical analysis to clean, analyze, and visualize data, uncover actionable insights, and support data-driven decision-making. These experiences have strengthened my expertise in data analysis, data visualization, problem-solving, effective communication, and translating technical findings into business recommendations. By combining extensive documentation experience with analytical and technical capabilities, I am passionate about turning data into actionable business insights that drive informed decision-making and operational excellence.
               </p>
 	      <p className="mt-6 text-lg leading-8" text-justify data-aos="fade-right" style={{ textAlign: "justify" }}>
 		 In this portfolio, I showcase some of my selected projects that demonstrate my analytical thinking and problem-solving capabilities.
@@ -56,7 +91,7 @@ export default function About() {
       </div>
         
   <div className="mx-auto mt-10 max-w-7xl px-8">
-  <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+  <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
 
   {educations.map((edu, index) => (
     <div
@@ -86,7 +121,7 @@ export default function About() {
           </div>
 
           <p className="mt-6 text-gray-600 leading-8">
-            {edu.desc}
+            <ReadMore text={edu.desc} maxLength={50} />
           </p>
 
           {edu.gpa && (

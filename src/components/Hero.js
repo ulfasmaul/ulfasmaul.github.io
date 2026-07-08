@@ -163,11 +163,15 @@ export default function Hero() {
                     sequence={[
 		      "I'm a Data Analyst",
 		      2000,
-                      "I'm an Analytics Professional",
+                      "I'm a Business Analyst",
+                      2000,
+                      "I'm a Data & Business Intelligence Analyst",
                       2000,
                       "I'm a Business Intelligence Analyst",
                       2000,
-                      "I'm a Data Analytics Specialist",
+		      "I'm a Business Data Analyst",
+                      2000,
+		      "I'm a Data Analytics & Business Intelligence Specialist",
                       2000,
                     ]}
                     speed={50}
