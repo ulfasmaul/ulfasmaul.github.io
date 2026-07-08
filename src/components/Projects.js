@@ -185,8 +185,8 @@ export default function Projects() {
         <p className="mt-2 text-4xl font-bold tracking-tight sm:text-6xl">
           Project Experiences
         </p>
-        <div className="mt-10 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8">
-          {(showAll ? projects : projects.slice(0, 3)).map((project) => (
+        <div className="mt-10 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-2 xl:gap-x-8">
+          {(showAll ? projects : projects.slice(0, 2)).map((project) => (
             <div
               key={project.id}
               className="group relative ring-2 ring-base-300 bg-base-200 rounded-2xl shadow-xl cursor-pointer hover:scale-105 duration-300" data-aos="flip-left"

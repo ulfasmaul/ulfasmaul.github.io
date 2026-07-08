@@ -96,7 +96,7 @@ const tool = [
     icon: FaChartBar,
   },
   {
-    name: "Ms Excel & SpreadSheets",
+    name: "Microsoft Excel & SpreadSheets",
     icon: SiGooglesheets,
   },
   {

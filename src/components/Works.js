@@ -9,12 +9,9 @@ export default function Works() {
       company: "Jatis Mobile",
       duration: "Feb 2019 - Present",
       achievements: [
-        "Produced and maintained technical documentation, user manuals, API documentation, and installation guides to support software deployment and user adoption.",
-	"Collaborated with developers, testers, product owners, and stakeholders to gather requirements and translate complex technical information into structured and user-friendly documentation.",
-	"Ensured documentation quality and consistency while supporting software maintenance, knowledge sharing, and operational efficiency.",
-	"Managed documentation updates and version control to align with product enhancements and evolving business requirements.",
-	"Applied analytical thinking and attention to detail to simplify complex information and support effective communication across cross-functional teams."
-
+        "Developed software documentation, including technical documentation, user guides, API references, and installation manuals, by translating complex technical concepts into clear and structured content, enabling efficient software deployment and accelerating user onboarding.",
+"Partnered with software engineers, QA teams, product owners, and business stakeholders to gather requirements, analyze system workflows, and document technical specifications, improving cross-functional alignment and ensuring accurate documentation throughout the software development lifecycle.",
+"Standardized documentation quality and version control across multiple software releases by implementing consistent documentation practices and maintaining audience-specific content, enhancing knowledge transfer, reducing documentation inconsistencies, and increasing operational efficiency."
       ]
     },
     {
@@ -22,7 +19,9 @@ export default function Works() {
       company: "PT Codigo Cyberlin Metadata",
       duration: "Oct 2016 - Oct 2018",
       achievements: [
-        "Produced technical documents, functional specifications, user manuals, API documentation, installation guides, and server documentation, improving knowledge sharing and enabling smoother software implementation, maintenance, and user adoption."
+        "Authored comprehensive technical and functional documentation (including user guides, API references, and installation manuals) and user manual using structured documentation methodologies and system analysis, facilitating efficient software implementation and accelerating user onboarding.",
+	"Partnered with software engineers, QA teams, product owners, and stakeholders to gather business requirements, analyze technical specifications and system workflows, and translate complex information into clear documentation, improving stakeholder alignment and supporting timely product releases.",
+	"Standardized documentation quality and version management across multiple software releases by implementing consistent documentation practices and audience-focused content strategies, enhancing knowledge transfer, streamlining collaboration, and increasing documentation reliability.",
       ]
     },
    {
@@ -30,7 +29,7 @@ export default function Works() {
       company: "PT Myindo Cyber Media",
       duration: "Jun 2014 - Sep 2015",
       achievements: [
-        "Produced technical documents, functional specifications, user manuals, API documentation, installation guides, and server documentation, improving knowledge sharing and enabling smoother software implementation, maintenance, and user adoption."
+        "Produced comprehensive technical, functional, API, and user documentation by analyzing system requirements, software architecture, and business workflows in collaboration with cross-functional teams, enabling successful software deployment, improving user adoption, and ensuring documentation quality across multiple product releases."
       ]
     },
     {
