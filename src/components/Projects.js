@@ -108,8 +108,8 @@ const projects = [
     href: "#",
     imageSrc: "\SQL.jpg",
     used: "SQL, BigQuery",
-    skillset : "Business Understanding, KPI Definition, Exploratory Data Analysis (EDA), Sales Performance Analysis, Customer Behavior Analysis, Category Performance Analysis, Pricing Analysis, Insight Generation, Business Recommendation",
-    skillsql : "JOINs, Common Table Expressions (CTEs), Aggregate Functions, Window Functions, GROUP BY, CASE WHEN, Ranking Functions",
+    skillset : "JOINs, Common Table Expressions (CTEs), Aggregate Functions, Window Functions, GROUP BY, CASE WHEN, Ranking Functions, Business Understanding, KPI Definition, Exploratory Data Analysis (EDA), Sales Performance Analysis, Customer Behavior Analysis, Category Performance Analysis, Pricing Analysis, Insight Generation, Business Recommendation",
+    skillsql : "-",
     skillstatistic : "-",
     description: "Analyzed product category performance and customer purchasing behavior using SQL to identify revenue drivers and provide data-driven recommendations for sales optimization and revenue growth.",
     deck : "https://drive.google.com/file/d/1YJJtaFu3KErUtJwH_cGPeJYrf1yNq-On/view?usp=sharing",
@@ -140,8 +140,8 @@ const projects = [
     href: "#",
     imageSrc: "\Statistics & Spreadsheet.jpg",
     used: "Microsoft Excel, Google Sheets",
-    skillset : "Business Understanding, KPI Definition, Statistical Analysis, Exploratory Data Analysis, Predictive Modeling, Insight Generation, Business Recommendation",
-    skillstatistic : "Descriptive Statistics, Correlation Analysis, Multiple Linear Regression, Coefficient Interpretation, R² Evaluation, Statistical Predicting Testing",
+    skillset : "Descriptive Statistics, Correlation Analysis, Multiple Linear Regression, Coefficient Interpretation, R² Evaluation, Statistical Predicting Testing, Business Understanding, KPI Definition, Statistical Analysis, Exploratory Data Analysis, Predictive Modeling, Insight Generation, Business Recommendation",
+    skillstatistic : "-",
     description: "Analyzed customer spending behavior using statistical techniques and spreadsheet-based analytics to identify key spending drivers and provide data-driven recommendations for improving marketing effectiveness and customer value.",
     skillsql : "-",
     deck : "https://drive.google.com/file/d/1iguM7rnBmyITduCJwLpnLw5DhjZGnBrc/view?usp=sharing",
@@ -294,18 +294,6 @@ export default function Projects() {
             </p>
 	    
 	    <p className="mt-6">
-              <strong>SQL Techniques:</strong>
-              <br />
-              {selectedProject.skillsql}
-            </p>
-
-	    <p className="mt-6">
-              <strong>Statistical Techniques:</strong>
-              <br />
-              {selectedProject.skillstatistic}
-            </p>
-
-            <p className="mt-6">
               <strong>Skillset:</strong>
               <br />
               {selectedProject.skillset}
