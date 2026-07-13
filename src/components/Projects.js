@@ -10,28 +10,22 @@ const projects = [
     imageSrc: "\DEEPP.jpg",
     used: "Python, Tableau, Jupyter Notebook, Pandas, NumPy, Matplotlib, Seaborn",
     skillset : "Data Cleaning, Exploratory Data Analysis, Customer Segmentation, Campaign Performance Analysis, Dashboard Development",
-    skillstatistic : "-",
-    skillsql : "-",
     description: "Conducted an end-to-end analytics project to evaluate campaign effectiveness and identify high-value customer segments for targeted marketing.",
     deck : "https://drive.google.com/file/d/1ysOqxIBFfF1jGnfHXOrdohiq3uG--o0r/view?usp=sharing",
-
     images: [
       "/DEEPP1.jpg",
       "/DEEPP2.jpg",
       "/DEEPP3.jpg",
       "/DEEPP4.jpg"
     ],
-
     background: "[Retail Campaign Analytics] Using the Dunnhumby The Complete Journey dataset, this project evaluated the effectiveness of coupon-based marketing campaigns and customer responsiveness. With 30 campaigns reaching 7,208 households, the analysis aimed to identify high-performing campaigns, understand demographic characteristics of responsive customers, and provide insights to improve future campaign targeting and promotional strategies.",
-
-  methodology: [
-    "Conducted an end-to-end analytics workflow covering business understanding, problem definition, stakeholder mapping, and objective formulation.",
-    "Prepared and integrated campaign, transaction, coupon, and household demographic datasets using Python to ensure data consistency and quality.",
-    "Performed exploratory data analysis and campaign performance analysis by measuring Campaign Reach, Response Rate, Coupon per Household, Redemption Rate, Repeat Redemption Rate, and customer response across demographic segments.",
-    "Analyzed customer characteristics based on age group, income level, household size, and family composition to identify the most responsive segments.",
-    "Built interactive Tableau dashboards to visualize campaign performance and support insight generation and business recommendations."
+    methodology: [
+    	"Conducted an end-to-end analytics workflow covering business understanding, problem definition, stakeholder mapping, and objective formulation.",
+    	"Prepared and integrated campaign, transaction, coupon, and household demographic datasets using Python to ensure data consistency and quality.",
+    	"Performed exploratory data analysis and campaign performance analysis by measuring Campaign Reach, Response Rate, Coupon per Household, Redemption Rate, Repeat Redemption Rate, and customer response across demographic segments.",
+    	"Analyzed customer characteristics based on age group, income level, household size, and family composition to identify the most responsive segments.",
+    	"Built interactive Tableau dashboards to visualize campaign performance and support insight generation and business recommendations."
   ],
-
   result: [
     "Campaign Performance: Campaign 24 and Campaign 30 achieved the highest repeat redemption rates (approximately 30%), indicating stronger customer engagement and loyalty.",
     "Customer Profile: High-income, family-oriented households with larger family sizes exhibited the highest response rates, while younger customer groups showed relatively lower engagement.",
@@ -47,8 +41,6 @@ const projects = [
     imageSrc: "\Data Visualization.jpg",
     used: "Tableau, Tableau Calculations, Level of Detail (LOD) Expressions, Table Calculations",
     skillset : "Business Understanding, KPI Definition, Dashboard Design, Data Visualization, Trend Analysis, Heatmap Analysis, Ranking Analysis, Distribution Analysis, Insight Generation, Business Recommendation",
-    skillstatistic : "-",
-    skillsql : "-",
     description: "Developed an interactive Tableau dashboard to monitor hospital capacity utilization and operational performance, enabling data-driven decisions on resource allocation and service efficiency.",
     deck : "https://drive.google.com/file/d/1XxmiFlJ8vH2roEsOOTfnMhnsxajtd7oK/view?usp=sharing",
     images: [
@@ -78,8 +70,6 @@ const projects = [
     imageSrc: "\Python.jpg",
     used: "Python, Google Colab, Jupyter Notebook, Pandas, NumPy, Matplotlib, Seaborn",
     skillset : "Business Understanding, Data Cleaning, Data Preparation, Exploratory Data Analysis (EDA), Descriptive Statistics, Customer Segmentation, Financial Risk Analysis, Insight Generation, Business Recommendation",
-    skillstatistic : "-",
-    skillsql : "-",
     description: "Analyzed customer transaction behavior and financial risk using Python to identify customer segments and provide data-driven recommendations for credit optimization and customer retention strategies.",
     deck :"https://drive.google.com/file/d/1ipMID17Hceche7LC5UDeEsGcUiv94gf2/view?usp=sharing",
     images: [
@@ -109,8 +99,6 @@ const projects = [
     imageSrc: "\SQL.jpg",
     used: "SQL, BigQuery",
     skillset : "JOINs, Common Table Expressions (CTEs), Aggregate Functions, Window Functions, GROUP BY, CASE WHEN, Ranking Functions, Business Understanding, KPI Definition, Exploratory Data Analysis (EDA), Sales Performance Analysis, Customer Behavior Analysis, Category Performance Analysis, Pricing Analysis, Insight Generation, Business Recommendation",
-    skillsql : "-",
-    skillstatistic : "-",
     description: "Analyzed product category performance and customer purchasing behavior using SQL to identify revenue drivers and provide data-driven recommendations for sales optimization and revenue growth.",
     deck : "https://drive.google.com/file/d/1YJJtaFu3KErUtJwH_cGPeJYrf1yNq-On/view?usp=sharing",
     images: [
@@ -141,9 +129,7 @@ const projects = [
     imageSrc: "\Statistics & Spreadsheet.jpg",
     used: "Microsoft Excel, Google Sheets",
     skillset : "Descriptive Statistics, Correlation Analysis, Multiple Linear Regression, Coefficient Interpretation, R² Evaluation, Statistical Predicting Testing, Business Understanding, KPI Definition, Statistical Analysis, Exploratory Data Analysis, Predictive Modeling, Insight Generation, Business Recommendation",
-    skillstatistic : "-",
     description: "Analyzed customer spending behavior using statistical techniques and spreadsheet-based analytics to identify key spending drivers and provide data-driven recommendations for improving marketing effectiveness and customer value.",
-    skillsql : "-",
     deck : "https://drive.google.com/file/d/1iguM7rnBmyITduCJwLpnLw5DhjZGnBrc/view?usp=sharing",
     images: [
 	"\Statistics & Spreadsheet1.jpg",
