@@ -11,9 +11,9 @@ const educations = [
   {
     logo: "/LogoRevoU.png",
     school: "RevoU",
-    degree: "Fullstack Data Analytics Program",
+    degree: "Full Stack Data Analytics Program",
     duration: "Feb - Jun 2026",
-    desc: "Completed the RevoU Fullstack Data Analytics Program, applying SQL, Python, and Tableau to end-to-end analytics projects involving campaign analysis, customer segmentation, dashboard development, and data-driven recommendations.",
+    desc: "Completed the RevoU Full Stack Data Analytics Program, applying SQL, Python, and Tableau to end-to-end analytics projects involving campaign analysis, customer segmentation, dashboard development, and data-driven recommendations.",
     gpa: "",
   },
   {
@@ -80,7 +80,7 @@ export default function About() {
                 About Me
               </p>
               <p className="mt-6 text-lg leading-8" text-justify data-aos="fade-right" style={{ textAlign: "justify" }}>
-                I am an analytical and detail-oriented professional with over 10 years of experience as a Technical Writer across technology companies, recognized for transforming complex technical information into clear, user-focused documentation through accuracy, continuous learning, and cross-functional collaboration. To transition into Data Analytics, I completed an intensive Full-Stack Data Analytics program and delivered end-to-end analytics projects using Excel, SQL, Python, Tableau, and statistical analysis to clean, analyze, and visualize data, uncover actionable insights, and support data-driven decision-making. These experiences have strengthened my expertise in data analysis, data visualization, problem-solving, effective communication, and translating technical findings into business recommendations. By combining extensive documentation experience with analytical and technical capabilities, I am passionate about turning data into actionable business insights that drive informed decision-making and operational excellence.
+                I am an analytical and detail-oriented professional with over 10 years of experience as a Technical Writer across technology companies, recognized for transforming complex technical information into clear, user-focused documentation through accuracy, continuous learning, and cross-functional collaboration. To transition into Data Analytics, I completed an intensive Full Stack Data Analytics program and delivered end-to-end analytics projects to uncover actionable insights and support data-driven decision-making. These experiences have strengthened my expertise in data analysis, data visualization, problem-solving, effective communication, and translating technical findings into business recommendations. By combining extensive documentation experience with analytical and technical capabilities, I am passionate about turning data into actionable business insights that drive informed decision-making and operational excellence.
               </p>
 	      <p className="mt-6 text-lg leading-8" text-justify data-aos="fade-right" style={{ textAlign: "justify" }}>
 		 In this portfolio, I showcase some of my selected projects that demonstrate my analytical thinking and problem-solving capabilities.

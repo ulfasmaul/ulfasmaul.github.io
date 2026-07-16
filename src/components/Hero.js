@@ -161,17 +161,13 @@ export default function Hero() {
                 <p className="mt-6 text-2xl leading-8">
                   <TypeAnimation
                     sequence={[
-		      "I'm a Data Analyst",
+		      "I'm a Business Intelligence Analyst",
 		      2000,
+                      "I'm a Data Analyst",
+                      2000,
                       "I'm a Business Analyst",
                       2000,
-                      "I'm a Data & Business Intelligence Analyst",
-                      2000,
-                      "I'm a Business Intelligence Analyst",
-                      2000,
-		      "I'm a Business Data Analyst",
-                      2000,
-		      "I'm a Data Analytics & Business Intelligence Specialist",
+		      "I'm a Data Analytics Specialist",
                       2000,
                     ]}
                     speed={50}
@@ -180,7 +176,7 @@ export default function Hero() {
                 </p>
                 <div className="mt-10 flex items-center justify-center gap-x-6">
                   <p>
-                    Emerging Data Analyst with 10+ years of experience as Technical Writer. Passionate about transforming data into actionable insights using SQL, Python, and Tableau.
+                    Emerging Data Analyst with 10+ years of experience as Technical Writer. Passionate about transforming data into actionable insights.
                   </p>
                 </div>
                 <div className="mt-10 flex items-center justify-center gap-x-4">

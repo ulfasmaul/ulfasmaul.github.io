@@ -5,152 +5,258 @@ import "aos/dist/aos.css";
 const projects = [
   {
     id: 1,
+    name: "Analisis Dampak Penggunaan AI Generatif terhadap Performa Akademik dan Kesejahteraan Mahasiswa",
+    href: "#",
+    imageSrc: "\BNSP.jpg",
+    used: "Python • Tableau • Microsoft Excel • Data Cleaning • EDA • Dashboard Development",
+    tool: "Python • Google Colab • Tableau • Pandas • NumPy • Matplotlib • Seaborn • Microsoft Excel",
+    skillset : "Business Understanding • Stakeholder Analysis • Problem Definition • DARCI • Data Cleaning & Preparation • Exploratory Data Analysis (EDA) • Descriptive Statistics • Pivot Table • Correlation Analysis • Customer (Student) Segmentation • Dashboard Development • Level of Detail (LOD) • Data Visualization • Insight Generation • Business Recommendation",
+    description: "Conducted an end-to-end analytics project to evaluate the impact of Generative AI on academic performance and student well-being, transforming complex educational data into actionable insights and strategic recommendations through Excel, Python and Tableau.",
+    deck : "https://drive.google.com/file/d/1BQXlW6284LZI99cXCoXMoYp3yB4qJ6af/view?usp=sharing",
+    images: [
+      "/BNSP1.jpg", "/BNSP2.jpg", "/BNSP3.jpg", "/BNSP4.jpg", "/BNSP5.jpg", "/BNSP6.jpg", "/BNSP7.jpg", "/BNSP8.jpg", "/BNSP9.jpg", "/BNSP10.jpg", "/BNSP11.jpg"
+    ],
+    background: "[Higher Education Analytics] The rapid growth of generative AI tools, such as ChatGPT, Copilot, and Gemini, has transformed learning in higher education. While these tools enhance academic activities, their impact on academic performance, knowledge retention, mental well-being, and burnout remains unclear. This analysis provides insights to help universities optimize AI adoption while supporting student success and well-being.",
+    objective: [
+	"Analyze the impact of AI usage on student's academic performance.",
+	"Evaluate the effect of AI usage on student's knowledge retention.",
+	"Identify the relationship between AI usage, dependency levels, and student's well-being."
+    ],
+    methodology: [
+    	"Defined business objectives, stakeholder needs, and problem statements to assess the impact of Generative AI on higher education.",
+	"Collected, cleaned, and analyzed a dataset of approximately 50,000 student records using Microsoft Excel and Python.",
+	"Conducted exploratory data analysis, descriptive statistics, correlation analysis, and student segmentation to identify patterns between AI usage, academic performance, knowledge retention, burnout risk, and student demographics.",
+	"Built an interactive Tableau dashboard to visualize AI adoption, academic performance, and student well-being.",
+	"Delivered data-driven insights and recommendations to support AI literacy, student well-being, and institutional decision-making."
+
+  ],
+  result: [
+    	"Academic Performance: AI adoption may improve academic performance, but the level of AI usage showed only a weak relationship with GPA and knowledge retention.",
+	"Student Well-being: Students with higher AI dependency were more likely to experience burnout, highlighting the need for balanced AI usage.",
+	"Institutional Policy: Current AI policies had limited impact on reducing burnout, indicating that additional education and student support are needed.",
+	"Recommendations: Recommended AI literacy programs, monitoring students with high AI dependency, and strengthening mental health support to promote responsible AI use."
+  ]
+  },
+
+  {
+    id: 2,
     name: "Campaign Effectiveness & Customer Responsiveness Analysis",
     href: "#",
     imageSrc: "\DEEPP.jpg",
-    used: "Python, Tableau, Jupyter Notebook, Pandas, NumPy, Matplotlib, Seaborn",
-    skillset : "Data Cleaning, Exploratory Data Analysis, Customer Segmentation, Campaign Performance Analysis, Dashboard Development",
+    used: "Python • Tableau • Data Cleaning • EDA • Descriptive Statistics • Dashboard Development",
+    tool: "Python • Google Colab • Tableau • Pandas • NumPy • Matplotlib • Seaborn",
+    skillset : "Business Understanding • Root Cause Analysis • Stakeholder Analysis • KPI Definition • Data Cleaning & Preparation • Exploratory Data Analysis (EDA) • Descriptive Statistics • Outlier Detection • Correlation Analysis • Customer Segmentation • Campaign Performance Analysis • Dashboard Development • Data Visualization • Insight Generation • Business Recommendation",
     description: "Conducted an end-to-end analytics project to evaluate campaign effectiveness and identify high-value customer segments for targeted marketing.",
-    deck : "https://drive.google.com/file/d/1ysOqxIBFfF1jGnfHXOrdohiq3uG--o0r/view?usp=sharing",
+    deck : "https://drive.google.com/file/d/1d3aQnHrtu8B7u2M-Tp8CZqFk-YzuKeOF/view?usp=sharing",
     images: [
       "/DEEPP1.jpg",
       "/DEEPP2.jpg",
       "/DEEPP3.jpg",
       "/DEEPP4.jpg"
     ],
-    background: "[Retail Campaign Analytics] Using the Dunnhumby The Complete Journey dataset, this project evaluated the effectiveness of coupon-based marketing campaigns and customer responsiveness. With 30 campaigns reaching 7,208 households, the analysis aimed to identify high-performing campaigns, understand demographic characteristics of responsive customers, and provide insights to improve future campaign targeting and promotional strategies.",
-    methodology: [
-    	"Conducted an end-to-end analytics workflow covering business understanding, problem definition, stakeholder mapping, and objective formulation.",
-    	"Prepared and integrated campaign, transaction, coupon, and household demographic datasets using Python to ensure data consistency and quality.",
-    	"Performed exploratory data analysis and campaign performance analysis by measuring Campaign Reach, Response Rate, Coupon per Household, Redemption Rate, Repeat Redemption Rate, and customer response across demographic segments.",
-    	"Analyzed customer characteristics based on age group, income level, household size, and family composition to identify the most responsive segments.",
-    	"Built interactive Tableau dashboards to visualize campaign performance and support insight generation and business recommendations."
-  ],
-  result: [
-    "Campaign Performance: Campaign 24 and Campaign 30 achieved the highest repeat redemption rates (approximately 30%), indicating stronger customer engagement and loyalty.",
-    "Customer Profile: High-income, family-oriented households with larger family sizes exhibited the highest response rates, while younger customer groups showed relatively lower engagement.",
-    "Campaign Effectiveness: Higher coupon distribution volume did not necessarily lead to better performance; customer relevance and targeting accuracy played a more significant role in driving redemption behavior.",
-    "Recommendations: Improve campaign targeting by prioritizing highly responsive customer segments and focusing on personalized promotions rather than increasing coupon volume indiscriminately.",
-    "Business Goal: Enhance future marketing effectiveness and optimize promotional spending through more data-driven customer segmentation strategies."
-  ]
-  },
-  {
-    id: 2,
-    name: "RevoHospital: Operational Performance Dashboard",
-    href: "#",
-    imageSrc: "\Data Visualization.jpg",
-    used: "Tableau, Tableau Calculations, Level of Detail (LOD) Expressions, Table Calculations",
-    skillset : "Business Understanding, KPI Definition, Dashboard Design, Data Visualization, Trend Analysis, Heatmap Analysis, Ranking Analysis, Distribution Analysis, Insight Generation, Business Recommendation",
-    description: "Developed an interactive Tableau dashboard to monitor hospital capacity utilization and operational performance, enabling data-driven decisions on resource allocation and service efficiency.",
-    deck : "https://drive.google.com/file/d/1XxmiFlJ8vH2roEsOOTfnMhnsxajtd7oK/view?usp=sharing",
-    images: [
-	"\Data Visualization1.jpg",
-	"\Data Visualization2.jpg",
-	"\Data Visualization3.jpg",
-	"\Data Visualization4.jpg"
+    background: "[Retail Campaign Analytics] A retail company wanted to evaluate the effectiveness of its promotional campaigns and identify the customer segments that responded best to coupon offers. This project analyzed campaign performance and customer redemption behavior to provide insights for improving future marketing strategies.",
+    objective: [
+	"Measure the effectiveness of marketing campaigns.",
+	"Identify the highest-performing campaigns.",
+	"Identify the customer segments that are most responsive to promotional campaigns."
     ],
-    background: "[Healthcare Operations Analytics] RevoHospital operates multiple branches across Java and faces challenges related to capacity utilization, patient flow, and uneven departmental workloads. This project aimed to translate operational requirements into key performance indicators and develop an interactive Tableau dashboard to monitor hospital performance and support operational decision-making.",
     methodology: [
-	"Defined business requirements and identified key performance metrics, including Total Admissions, Average Length of Stay (ALOS), Bed Utilization Rate, Department Utilization Share, Bed Capacity Gap, and Average Billing Amount.",
-	"Designed and developed an analytical dashboard using Tableau by selecting appropriate visualizations such as KPI scorecards, trend charts, heatmaps, distribution charts, and ranking analysis.",
-	"Applied advanced Tableau features, including Level of Detail (LOD) expressions, table calculations, filters, and interactive components to improve analytical accuracy and dashboard usability.",
-	"Translated dashboard findings into recommendations for capacity planning, department prioritization, and resource allocation to improve operational efficiency."
+    	"Defined business objectives, KPIs, and problem statements to evaluate campaign effectiveness and customer responsiveness.",
+	"Cleaned and analyzed campaign, coupon redemption, and customer data using Python to prepare it for analysis.",
+	"Conducted exploratory data analysis (EDA), descriptive statistics, correlation analysis, campaign performance analysis, and customer segmentation to identify factors affecting coupon redemption.",
+	"Built an interactive Tableau dashboard to track campaign performance, coupon redemption, and customer response.",
+	"Delivered data-driven insights and recommendations to improve campaign targeting, customer engagement, and promotional effectiveness."
     ],
     result: [
-	"Operational Visibility: Developed a centralized dashboard that enabled monitoring of admissions, length of stay, and capacity utilization across branches and departments.",
-	"Bottleneck Identification: Highlighted variations in department workloads and bed capacity utilization to support operational performance evaluation.",
-	"Interactive Analysis: Leveraged LOD expressions and table calculations to provide accurate and dynamic analyses across multiple dimensions.",
-	"Recommendations: Proposed improvements in resource allocation, capacity planning, and department prioritization to enhance hospital efficiency and support data-driven decision-making."
+    	"Campaign Performance: The campaigns showed relatively low customer response, indicating opportunities to improve targeting and overall campaign effectiveness.",
+	"Targeting Strategy: Campaigns that distributed fewer coupons often achieved higher redemption rates, suggesting that accurate targeting is more effective than sending more coupons.",
+	"Customer Segmentation: Adult, high-income, family-oriented households with 4–5 members and two or more children were the most responsive customer segments.",
+	"Customer Loyalty: Campaigns 24 and 30 achieved the highest repeat redemption rates, indicating stronger customer loyalty than other campaigns.",
+	"Recommendations: Recommended using customer segmentation, personalized promotions, and successful campaign strategies to improve campaign performance and customer engagement."
     ]
   },
   {
     id: 3,
+    name: "RevoHospital: Operational Performance Dashboard",
+    href: "#",
+    imageSrc: "\Data Visualization.jpg",
+    used: "Tableau • Level of Detail (LOD) • Table Calculations • Dashboard Development • Data Visualization ",
+    tool: "Tableau",
+    skillset : "Business Understanding • KPI Definition • Dashboard Development • Data Visualization • Business Intelligence Dashboard • Level of Detail (LOD) • Table Calculations • Interactive Dashboard Development • Scorecards • Heatmaps Analysis • Trend Analysis • Ranking Analysis • Distribution Analysis • Geographic Visualization • Insight Generation • Business Recommendation",
+    description: "Developed an interactive Tableau dashboard to monitor hospital capacity utilization and operational performance, enabling data-driven decisions on resource allocation and service efficiency.",
+    deck : "https://drive.google.com/file/d/1VEhDlY5zvsxdoK3umPJ2LML77QU-9m6b/view?usp=sharing",
+    images: [
+	"\Data Visualization1.jpg",
+	"\Data Visualization2.jpg",
+	"\Data Visualization3.jpg",
+	"\Data Visualization4.jpg",
+	"\Data Visualization5.jpg"
+    ],
+    background: "[Healthcare Operations Analytics] RevoHospital is a hospital network with multiple branches across Java. As patient admissions increased, the hospital needed better resource management. This analysis identified operational bottlenecks and provided insights to improve capacity planning and overall hospital efficiency.",
+    objective: [
+	"Monitor hospital operations and operational performance.",
+	"Identify operational bottlenecks across branches and departments.",
+	"Support data-driven decision-making to improve operational efficiency."
+    ],
+    methodology: [
+	"Defined business objectives and KPIs to monitor hospital capacity, patient admissions, and operational performance.",
+	"Built an interactive Tableau dashboard with KPI scorecards, maps, charts, and filters to visualize hospital operations.",
+	"Used advanced Tableau features, including LOD expressions and table calculations, to calculate key operational metrics.",
+	"Delivered insights that helped stakeholders identify operational bottlenecks, monitor resource utilization, and support capacity planning."
+    ],
+    result: [
+	"Capacity Utilization: Several hospital branches were operating above their ideal bed capacity, indicating the need for better capacity planning.",
+	"Operational Bottlenecks: Negative Bed Capacity Gap values showed that some branches were under continuous pressure due to high inpatient demand.",
+	"Service Demand: The Internal Medicine and Emergency departments had the highest patient admissions, making them priority areas for resource allocation.",
+	"Operational Trends: Patient admissions and total Length of Stay (LOS) increased throughout 2025, reflecting growing demand for hospital services.",
+	"Recommendations: Recommended improving demand forecasting, expanding bed capacity, optimizing patient discharge planning, and prioritizing resources for high-demand departments."
+    ]
+  },
+  {
+    id: 4,
     name: "Optimization of RevoBank Credit Card Transactions",
     href: "#",
     imageSrc: "\Python.jpg",
-    used: "Python, Google Colab, Jupyter Notebook, Pandas, NumPy, Matplotlib, Seaborn",
-    skillset : "Business Understanding, Data Cleaning, Data Preparation, Exploratory Data Analysis (EDA), Descriptive Statistics, Customer Segmentation, Financial Risk Analysis, Insight Generation, Business Recommendation",
+    used: "Python • Data Cleaning • EDA • K-Means Clustering • Customer Profiling",
+    tool: "Python • Google Colab • Pandas • NumPy • Matplotlib • Seaborn",
+    skillset : "Business Understanding • Data Cleaning • Exploratory Data Analysis (EDA) • Descriptive Statistics • Correlation Analysis • Customer Segmentation • K-Means Clustering • Financial Risk Analysis • Customer Profiling • Insight Generation • Business Recommendation",
     description: "Analyzed customer transaction behavior and financial risk using Python to identify customer segments and provide data-driven recommendations for credit optimization and customer retention strategies.",
-    deck :"https://drive.google.com/file/d/1ipMID17Hceche7LC5UDeEsGcUiv94gf2/view?usp=sharing",
+    deck :"https://drive.google.com/file/d/1XThVttSbq2CjaccUHRMAjPb0r3BResGB/view?usp=sharing",
     images: [
 	"\Python1.jpg",
 	"\Python2.jpg",
 	"\Python3.jpg",
 	"\Python4.jpg"
     ],
-    background: "[Banking Analytics Application] RevoBank sought to optimize credit card performance by understanding customer transaction behavior, profitability, and financial risk. This project aimed to identify factors influencing transaction activity, evaluate customer characteristics, and segment customers based on their financial profiles to support more effective credit and retention strategies.",
+    background: "[Banking Analytics] RevoBank experienced low credit card usage despite having many cardholders. The lack of customer segmentation made it difficult to understand spending patterns and improve revenue. In addition, fraud risk affected the bank's profitability. This analysis was conducted to identify customer segments, understand transaction behavior, and provide insights to support business growth and risk management.",
+    objective: [
+	"Evaluate overall credit card business performance.",
+	"Measure transaction value, transaction frequency, revenue, and net income after fraud losses.",
+	"Identify customer segments and user personas based on spending behavior.",
+	"Support targeted marketing strategies to increase customer activity and optimize revenue growth."
+    ],
     methodology: [
-	"Defined business objectives and translated credit card usage challenges into analytical questions related to customer behavior, profitability, and risk exposure.",
-	"Performed data preparation and cleaning using Python, including data type validation, duplicate removal, missing value treatment, and descriptive statistical analysis.",
-	"Conducted exploratory data analysis to examine relationships between transaction behavior, debt-to-income ratio, credit score, and customer characteristics.",
-	"Developed customer segmentation based on spending patterns and financial risk profiles to support personalized strategies and business recommendations."
+	"Defined business objectives and KPIs to evaluate customer behavior, profitability, and financial risk.",
+	"Cleaned and analyzed credit card transaction data using Python with exploratory data analysis (EDA), descriptive statistics and correlation analysis to uncover behavioral and financial patterns.",
+	"Identified relationships between customer financial factors, transaction activity, and credit risk.",
+	"Used K-Means Clustering to segment customers and created customer profiles based on spending behavior and risk.",
+	"Delivered data-driven recommendations to improve marketing strategies, customer retention, credit limit management, and risk monitoring."
     ],
     result: [
-	"Customer Segmentation: Identified distinct customer groups consisting of High Value–Low Risk, Middle Value–Moderate Risk, and Low Value–High Risk segments.",
-	"Risk Profiling: Revealed that debt-to-income ratio and credit score played important roles in distinguishing customer risk levels.",
-	"Behavior Analysis: Uncovered transaction patterns and customer characteristics associated with higher profitability and lower financial risk.",
-	"Recommendations: Proposed strategies for credit limit management, customer retention, personalized product offerings, and proactive risk monitoring to improve profitability and customer engagement."
+	"Customer Segmentation: Used K-Means Clustering to group customers into three segments based on spending behavior, financial characteristics, and credit risk.",
+	"Customer Profiling: Identified the characteristics of each segment, including high-value customers with low risk and low-value customers with higher financial risk.",
+	"Business Strategy: Recommended different strategies for each customer segment, such as personalized marketing, credit limit adjustments, loyalty programs, and risk monitoring.",
+	"Business Impact: Demonstrated how customer segmentation can support data-driven decision-making by enabling personalized credit management, targeted marketing campaigns, early risk identification, and product recommendations tailored to each customer profile."
     ]
   },
   {
-    id: 4,
+    id: 5,
     name: "RevoGrocers: Sales Performance Analysis",
     href: "#",
     imageSrc: "\SQL.jpg",
-    used: "SQL, BigQuery",
-    skillset : "JOINs, Common Table Expressions (CTEs), Aggregate Functions, Window Functions, GROUP BY, CASE WHEN, Ranking Functions, Business Understanding, KPI Definition, Exploratory Data Analysis (EDA), Sales Performance Analysis, Customer Behavior Analysis, Category Performance Analysis, Pricing Analysis, Insight Generation, Business Recommendation",
+    used: "SQL (Google BigQuery) • KPI Definition • EDA • CTEs • Window Functions • Sales Performance Analysis",
+    tool: "SQL (Google BigQuery)",
+    skillset : "Business Understanding • Exploratory Data Analysis (EDA) • KPI Definition • SQL • JOINs • Common Table Expressions (CTEs) • Aggregate Functions • Window Functions • Subqueries • Ranking Functions • Sales Performance Analysis • Revenue Contribution Analysis • Pricing Strategy Analysis • Customer Behavior Analysis • Repeat Purchase Analysis • High-Value Customer Analysis • Insight Generation • Business Recommendation",
     description: "Analyzed product category performance and customer purchasing behavior using SQL to identify revenue drivers and provide data-driven recommendations for sales optimization and revenue growth.",
-    deck : "https://drive.google.com/file/d/1YJJtaFu3KErUtJwH_cGPeJYrf1yNq-On/view?usp=sharing",
+    deck : "https://drive.google.com/file/d/1zkarpkq24IgQUG7HOa3JYyUKlpxCVBnZ/view?usp=sharing",
     images: [
 	"\SQL1.jpg",
 	"\SQL2.jpg",
 	"\SQL3a.jpg",
 	"\SQL3b.jpg",
-	"\SQL4.jpg"
+	"\SQL4.jpg",
+	"\SQL5.jpg"
     ],
-    background: "[Retail Sales Analytics] RevoGrocers aimed to understand product category performance and customer purchasing behavior to support revenue growth strategies. This project focused on identifying key revenue drivers, evaluating pricing and repeat purchase patterns, and generating insights to optimize category management and sales performance.",
+    background: "[Retail Sales Analytics] RevoGrocers is a grocery retail business that operates in multiple locations, offering a diverse range of grocery products to customers. The company aims to optimize sales strategies, enhance customer experience, and increase revenue by leveraging data-driven decision-making.",
+    objective: [
+	"Identify the highest-performing product categories based on revenue.",
+	"Understand the key factors that drive revenue growth.",
+	"Evaluate the impact of pricing strategies on sales performance."
+    ],
     methodology: [
-	"Defined business objectives and translated sales-related questions into measurable metrics to evaluate category performance and revenue drivers.",
-	"Performed data exploration and analysis using SQL by applying JOINs, Common Table Expressions (CTEs), aggregate functions, and window functions.",
-	"Analyzed sales performance, pricing strategies, customer purchasing behavior, and repeat purchase patterns across product categories.",
-	"Interpreted analytical findings and developed recommendations to support category prioritization and revenue optimization initiatives."
+	"Defined business objectives and KPIs to evaluate sales performance and revenue growth.",
+	"Used SQL including JOINs, CTEs, aggregate functions, subqueries, and window functions to combine and analyze sales, product, category, and customer data.",
+	"Analyzed product category performance, revenue, pricing, and repeat purchase rates to identify key business drivers.",
+	"Examined customer purchasing behavior to understand spending patterns and customer loyalty.",
+	"Delivered data-driven recommendations to improve pricing strategies, customer retention, and revenue growth."
     ],
     result: [
-	"Revenue Drivers: Identified Confections, Meat, and Poultry as the major revenue contributors, accounting for more than half of total revenue after discounts.",
-	"Customer Behavior: Observed consistently high repeat purchase rates across categories, indicating strong customer loyalty.",
-	"Category Performance: Evaluated category-level pricing and sales patterns to understand differences in revenue contribution and purchasing behavior.",
-	"Recommendations: Proposed prioritizing high-performing categories and leveraging customer loyalty insights to support sustainable revenue growth and category optimization."
+	"Revenue Performance: Confections, Meat, Poultry, and Cereals were the top revenue-generating product categories, contributing more than half of total revenue.",
+	"Customer Behavior: Revenue was driven more by customer spending and purchase frequency than by the number of customers, creating opportunities to increase average order value.",
+	"Pricing & Loyalty: Different pricing strategies were effective across product categories, while high repeat purchase rates showed strong customer loyalty.",
+	"Recommendations: Recommended focusing on high-performing categories, optimizing pricing strategies, increasing customer spending through targeted promotions, and strengthening customer retention programs."
     ]
   },
   {
-    id: 5,
+    id: 6,
     name: "TokoBli E-commerce: Campaign Evaluation & Product Page Analysis",
     href: "#",
-    imageSrc: "\Statistics & Spreadsheet.jpg",
-    used: "Microsoft Excel, Google Sheets",
-    skillset : "Descriptive Statistics, Correlation Analysis, Multiple Linear Regression, Coefficient Interpretation, R² Evaluation, Statistical Predicting Testing, Business Understanding, KPI Definition, Statistical Analysis, Exploratory Data Analysis, Predictive Modeling, Insight Generation, Business Recommendation",
-    description: "Analyzed customer spending behavior using statistical techniques and spreadsheet-based analytics to identify key spending drivers and provide data-driven recommendations for improving marketing effectiveness and customer value.",
-    deck : "https://drive.google.com/file/d/1iguM7rnBmyITduCJwLpnLw5DhjZGnBrc/view?usp=sharing",
+    imageSrc: "\Statistics & Spreadsheet [Int].jpg",
+    used: "Microsoft Excel • Data Cleaning • Descriptive Statistics • EDA • Pivot Table • A/B Testing • T-Test • SMART Framework",
+    tool: "Microsoft Excel • Google Sheets • XLMiner",
+    skillset : "Business Understanding • Data Cleaning & Preparation • Pivot Table • Descriptive Statistics • Campaign Performance Analysis • KPI Analysis • Outlier Detection (IQR) • Exploratory Data Analysis (EDA) • A/B Testing • Independent Two-Sample T-Test • Business Recommendation • SMART Framework",
+    description: "Evaluated marketing campaign effectiveness and product page performance using descriptive statistics and hypothesis testing to identify revenue-driving strategies and recommend data-driven improvements for future campaigns.",
+    deck : "https://drive.google.com/file/d/1xCldCBztsL5naBGtOzyjyu02DU41kcgZ/view?usp=sharing",
     images: [
-	"\Statistics & Spreadsheet1.jpg",
-	"\Statistics & Spreadsheet2.jpg",
-	"\Statistics & Spreadsheet3.jpg",
-	"\Statistics & Spreadsheet4.jpg",
-	"\Statistics & Spreadsheet5.jpg",
-	"\Statistics & Spreadsheet6.jpg"
+	"\Statistics & Spreadsheet [Int]1.jpg",
+	"\Statistics & Spreadsheet [Int]2.jpg",
+	"\Statistics & Spreadsheet [Int]3.jpg",
+	"\Statistics & Spreadsheet [Int]4.jpg",
+	"\Statistics & Spreadsheet [Int]5.jpg",
+	"\Statistics & Spreadsheet [Int]6.jpg",
+	"\Statistics & Spreadsheet [Int]7.jpg"
     ],
-    background: "[E-Commerce Customer Analytics] TokoBli aimed to understand the factors influencing customer spending behavior to improve marketing effectiveness and drive higher customer value. This project focused on identifying the relationships between customer characteristics, online engagement, promotional activities, and yearly spending to support more targeted marketing strategies.",
+    background: "[E-Commerce Campaign Analytics] TokoBli evaluated its Q4 2023 marketing campaigns and product page performance to improve campaign effectiveness and maximize revenue. As part of this initiative, the business sought to determine whether a redesigned Product Detail Page (PDP) significantly increased transaction value compared with the existing version, enabling data-driven decisions before full-scale implementation.",
+    objective: [
+	"Analyze Q4 2023 campaign performance to identify the most effective strategies for increasing transaction volume.",
+	"Evaluate whether the new Product Detail Page (PDP) significantly improves transaction value compared to the current version."
+    ],
     methodology: [
-	"Defined business objectives and key performance indicators to understand the drivers of customer spending behavior and support data-driven marketing decisions.",
-	"Conducted descriptive statistical analysis to examine customer demographics, engagement metrics, and transaction characteristics.",
-	"Performed correlation analysis to identify relationships among income, tenure, average session time, promotion usage, bounce rate, and yearly spending.",
-	"Built and refined a multiple linear regression model to quantify the impact of key variables on customer spending and interpret their business implications."
+	"Defined business objectives, KPIs, and SMART goals to evaluate campaign performance.",
+	"Cleaned and prepared transaction data for analysis by handling missing values, duplicates, outliers, and formatting issues.",
+	"Performed  descriptive analysis to evaluate transaction quantity, discount distribution, and revenue characteristics.",
+	"Performed EDA and analyzed campaign performance using key business metrics, including transactions, customers, product sold, revenue, discount, and Average Order Value (AOV).",
+	"Conducted an A/B test and applied an Independent Two-Sample T-Test to compare the current and redesigned Product Detail Page (PDP).",
+	"Delivered data-driven insights and recommendations to improve product design, campaign performance, and future experiments."
     ],
     result: [
-	"Key Spending Drivers: Identified Income, Tenure, Average Session Time, Promotion Usage, and Bounce Rate as important factors influencing customer yearly spending.",
-	"Strong Predictive Power: Developed a multiple linear regression model that explained approximately 92.7% of the variation in customer spending behavior.",
-	"Customer Engagement Impact: Observed that higher engagement and effective promotional usage were associated with increased customer spending.",
-	"Recommendations: Proposed optimizing promotional strategies, improving customer engagement, and focusing on high-value customer segments to enhance marketing effectiveness and increase revenue."
+	"Campaign Performance: Campaign 11.11 generated the highest revenue and Average Order Value (AOV), while Campaign 12.12 achieved the highest transaction volume.",
+"Product Performance: Men's Fashion and Health & Sports were the strongest-performing product categories during the campaigns.",
+"A/B Testing: Statistical testing showed that the redesigned Product Detail Page (Group B) significantly increased transaction value compared to the current version.",
+"Recommendations: Recommended expanding successful campaign strategies, optimizing discounts, focusing on high-performing product categories, and implementing the new Product Detail Page."
+    ]
+  },
+  {
+    id: 7,
+    name: "TokoBli E-commerce: Analyzing and Predicting Customer Spending Behavior",
+    href: "#",
+    imageSrc: "\Statistics & Spreadsheet [Adv].jpg",
+    used: "Microsoft Excel • Correlation Analysis • Multiple Linear Regression • Simultaneous Hypothesis Testing (F-Test) • Partial Hypothesis Testing (t-Test) • Coefficient Interpretation • Predictive Analysis",
+    tool: "Microsoft Excel • Google Sheets",
+    skillset : "Business Understanding • Correlation Analysis • Multiple Linear Regression • Simultaneous Hypothesis Testing (F-Test) • Partial Hypothesis Testing (t-Test) • Coefficient Interpretation • Predictive Analysis • Customer Spending Prediction • Insight Generation • Business Recommendation",
+    description: "Developed a multiple linear regression model to predict yearly customer spending and identify the key factors that influence customer value, helping support more effective marketing and customer retention strategies.",
+    deck : "https://drive.google.com/file/d/1kWtJ6B8sme87UrRcH57f9sR02jQ41tTp/view?usp=sharing",
+    images: [
+	"\Statistics & Spreadsheet [Adv]1.jpg",
+	"\Statistics & Spreadsheet [Adv]2.jpg",
+	"\Statistics & Spreadsheet [Adv]3.jpg",
+	"\Statistics & Spreadsheet [Adv]4.jpg",
+	"\Statistics & Spreadsheet [Adv]5.jpg"
+    ],
+    background: "[Customer Spending Prediction] TokoBli E-commerce wanted to increase customer spending by understanding the factors that influence purchasing behavior. This project analyzed customer demographics, engagement, promotions, and browsing behavior to identify key spending drivers and build a model to predict yearly customer spending, supporting more effective marketing strategies.",
+    objective: [
+	"Identify the key factors that influence customer spending and build a model to predict yearly customer spending.",
+	"Provide data-driven recommendations to improve marketing strategies, customer engagement, and long-term revenue growth."
+    ],
+    methodology: [
+	"Performed descriptive statistics and correlation analysis to evaluate relationships among customer demographics, engagement metrics, promotional usage, and bounce rate, identifying variables with the strongest associations.",
+	"Built and refined a Multiple Linear Regression model by evaluating variable significance through simultaneous and partial hypothesis testing, removing statistically insignificant variables, and improving model performance from the initial iteration to the final model.",
+	"Applied the final regression equation to predict customer yearly spending, interpreted the influence of each predictor, and translated statistical findings into business recommendations for customer engagement, promotion optimization, and retention strategies."
+    ],
+    result: [
+	"Key Findings: Income, customer tenure, session time, promotion usage, and bounce rate were the main factors influencing yearly customer spending. The final regression model explained 92.7% of customer spending, showing strong predictive performance.",
+	"Customer Engagement: Customers who spent more time on the platform and used more promotions tended to spend more, while higher bounce rates were linked to lower spending.",
+	"Recommendations: Recommended improving the user experience, optimizing promotional strategies, and strengthening customer retention programs to increase customer spending and long-term business growth."
     ]
   },
 
@@ -187,12 +293,6 @@ export default function Projects() {
               </div>
               <div className="mt-4 flex justify-between p-4">
                 <div className="p-4">
-                  <h3 className="text-lg font-bold">
-                    <a href={project.href}>
-                      <span aria-hidden="true" className="absolute inset-0" />
-                      {project.name}
-                    </a>
-                  </h3>
                   <p className="mt-1 mb-5 text-sm">{project.description}</p>
                   <p className="text-sm font-medium">{project.used}</p>
                 </div>
@@ -276,7 +376,7 @@ export default function Projects() {
             <p className="mt-6">
               <strong>Tools:</strong>
               <br />
-              {selectedProject.used}
+              {selectedProject.tool}
             </p>
 	    
 	    <p className="mt-6">
@@ -312,6 +412,23 @@ export default function Projects() {
             <p>
               {selectedProject.background}
             </p>
+
+          </div>
+
+
+	  <div className="bg-base-200 rounded-2xl p-6 mb-6">
+
+            <h3 className="font-bold text-2xl mb-4">
+              Objective
+            </h3>
+	    
+	    <ul className="list-disc ml-6 space-y-2">
+              {selectedProject.objective.map((item, index) => (
+                <li key={index}>
+                  {item}
+                </li>
+              ))}
+            </ul>
 
           </div>
 

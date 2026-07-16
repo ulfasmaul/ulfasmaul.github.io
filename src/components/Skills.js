@@ -26,6 +26,10 @@ const technical = [
     name: "Exploratory Data Analysis (EDA)",
     icon: CheckCircleIcon,
   },
+	{
+    name: "A/B Testing",
+    icon: CheckCircleIcon,
+  },
   {
     name: "Statistical Analysis",
     icon: CheckCircleIcon,
