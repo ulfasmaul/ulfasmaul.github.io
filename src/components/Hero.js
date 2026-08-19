@@ -176,7 +176,7 @@ export default function Hero() {
                 </p>
                 <div className="mt-10 flex items-center justify-center gap-x-6">
                   <p>
-                    Emerging Data Analyst with 10+ years of experience as Technical Writer. Passionate about transforming data into actionable insights.
+                    Data Analyst with 10+ years of technology industry experience. Passionate about transforming data into actionable insights.
                   </p>
                 </div>
                 <div className="mt-10 flex items-center justify-center gap-x-4">
