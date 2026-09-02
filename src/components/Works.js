@@ -16,7 +16,7 @@ export default function Works() {
     },
     {
       role: "Technical Writer",
-      company: "PT Codigo Cyberlin Metadata",
+      company: "Codigo Digital Indonesia",
       duration: "Oct 2016 - Oct 2018",
       achievements: [
         "Authored comprehensive technical and functional documentation (including user guides, API references, and installation manuals) and user manual using structured documentation methodologies and system analysis, facilitating efficient software implementation and accelerating user onboarding.",
@@ -26,7 +26,7 @@ export default function Works() {
     },
    {
       role: "Technical Writer",
-      company: "PT Myindo Cyber Media",
+      company: "MyIndo Cyber Media",
       duration: "Jun 2014 - Sep 2015",
       achievements: [
         "Produced comprehensive technical, functional, API, and user documentation by analyzing system requirements, software architecture, and business workflows in collaboration with cross-functional teams, enabling successful software deployment, improving user adoption, and ensuring documentation quality across multiple product releases."
@@ -47,7 +47,7 @@ export default function Works() {
     },
     {
       role: "IT Staff",
-      company: "PT Global One Solusindo",
+      company: "Global One Solusindo",
       duration: "Dec 2011 - May 2012",
       achievements: [
         "Developed a statistical KPI reporting application to automate and support business performance monitoring.",

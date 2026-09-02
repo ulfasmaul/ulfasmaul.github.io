@@ -3,12 +3,52 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 const projects = [
-  {
+   {
     id: 1,
+    name: "Demand Analysis & Stock Planning Forecasting for Quick Commerce",
+    href: "#",
+    imageSrc: "\Forecasting.jpg",
+    used: "Data Preparation → EDA → Forecasting → Model Evaluation → Stock Planning → Business Recommendation",
+    disclaimer: "Demand Analysis & Stock Planning Forecasting for Quick Commerce project is a part of RevoU Data Insight Project, a 4-week case study designed to analyze customized datasets and address business challenges. Supervised by RevoU, this project hones analytical skills, strengthens problem-solving abilities, and guides students in delivering actionable insights.",
+    tool: "Python • Google Colab • Pandas • NumPy • Matplotlib",
+    skillset : "Data Cleaning • Exploratory Data Analysis (EDA) • Time-Series Forecasting • Naive Forecasting • Moving Average • Exponential Smoothing • Model Evaluation • MAE • MAPE • Demand Share Analysis • Coefficient of Variation (CV) • Stock Planning • Business Recommendation",
+    description: "Performed end-to-end demand analysis and time-series forecasting, evaluating multiple models to generate a 377K-unit August 2022 forecast and support data-driven stock allocation and replenishment planning.",
+    deck : "https://drive.google.com/file/d/1J0yEz3vGJaJPa5YWBjShgLA9UJsfCgJ5/view?usp=sharing",
+    images: [
+      "/Forecasting1.jpg", "/Forecasting2.jpg", "/Forecasting3.jpg", "/Forecasting4.jpg", "/Forecasting5.jpg", "/Forecasting6.jpg", "/Forecasting7.jpg", "/Forecasting8.jpg", "/Forecasting9.jpg"
+    ],
+    background: "[Quick Commerce] A new Q-Commerce hub required a demand forecast for August 2022 to support stock preparation and allocation. Historical demand from January–July 2022 showed strong growth followed by a peak, correction, and recovery, while demand patterns varied across product categories and levels of volatility. Therefore, the project aimed to understand historical demand patterns and develop a reliable short-term forecast to support inventory planning and reduce the risk of stock shortages or excess inventory.",
+    objective: [
+	"Determine the most suitable forecasting method based on historical demand patterns from January to July 2022.",
+	"Forecast total demand for August 2022 to support inventory planning.",
+	"Estimate demand for each product category based on the forecast results.",
+	"Prioritize restocking based on forecasted demand and category volatility."
+    ],
+    methodology: [
+    	"Defined the business objective, forecasting scope, metrics, and stock-planning requirements using historical demand from January–July 2022.",
+	"Performed data preparation and quality checks, including data-type validation, missing values, duplicates, and data inconsistencies.",
+	"Conducted EDA to analyze monthly demand trends, MoM growth, weekly patterns, category contribution, hub distribution, and demand volatility using Coefficient of Variation (CV).",
+	"Compared Naive, Moving Average, and Exponential Smoothing models using MAE and MAPE, selecting Moving Average as the best-performing model with 4.43% MAPE and 17,299.67 MAE.",
+	"Generated an August 2022 forecast of 377,148 units and distributed the forecast across product categories based on demand share.",
+	"Translated forecast results and category volatility into stock-priority recommendations to support replenishment planning."
+
+   ],
+   result: [
+    	"Demand growth & stabilization: Demand increased substantially from January to July, with a peak in April followed by a 20.79% decline in May and recovery during June–July.",
+	"Forecast model selection: Moving Average achieved the lowest forecasting error with 4.43% MAPE, making it the most suitable model for the short-term forecasting scenario.",
+	"August demand forecast: Estimated total demand reached approximately 377K units, providing a quantitative baseline for inventory preparation.",
+	"Demand volatility: Protein (Chicken & Eggs) and Beverages showed relatively stable demand, while Frozen Food, Frozen Meat, and Fruits & Vegetables were more volatile and required closer monitoring.",
+	"Business action: Prioritize stock allocation based on forecasted demand while applying additional monitoring to high-volatility categories to reduce stockout and overstock risks."
+  ]
+  },
+
+  {
+    id: 2,
     name: "Analisis Dampak Penggunaan AI Generatif terhadap Performa Akademik dan Kesejahteraan Mahasiswa",
     href: "#",
     imageSrc: "\BNSP.jpg",
     used: "Python • Tableau • Microsoft Excel • Data Cleaning • EDA • Dashboard Development",
+    disclaimer: "This project is based on a simulated case study and dataset provided for educational and assessment purposes. The findings and recommendations are intended to demonstrate data analytics skills and should not be considered as real-world policy recommendations.",
     tool: "Python • Google Colab • Tableau • Pandas • NumPy • Matplotlib • Seaborn • Microsoft Excel",
     skillset : "Business Understanding • Stakeholder Analysis • Problem Definition • DARCI • Data Cleaning & Preparation • Exploratory Data Analysis (EDA) • Descriptive Statistics • Pivot Table • Correlation Analysis • Customer (Student) Segmentation • Dashboard Development • Level of Detail (LOD) • Data Visualization • Insight Generation • Business Recommendation",
     description: "Conducted an end-to-end analytics project to evaluate the impact of Generative AI on academic performance and student well-being, transforming complex educational data into actionable insights and strategic recommendations through Excel, Python and Tableau.",
@@ -39,11 +79,12 @@ const projects = [
   },
 
   {
-    id: 2,
+    id: 3,
     name: "Campaign Effectiveness & Customer Responsiveness Analysis",
     href: "#",
     imageSrc: "\DEEPP.jpg",
     used: "Python • Tableau • Data Cleaning • EDA • Descriptive Statistics • Dashboard Development",
+    disclaimer: "-",
     tool: "Python • Google Colab • Tableau • Pandas • NumPy • Matplotlib • Seaborn",
     skillset : "Business Understanding • Root Cause Analysis • Stakeholder Analysis • KPI Definition • Data Cleaning & Preparation • Exploratory Data Analysis (EDA) • Descriptive Statistics • Outlier Detection • Correlation Analysis • Customer Segmentation • Campaign Performance Analysis • Dashboard Development • Data Visualization • Insight Generation • Business Recommendation",
     description: "Conducted an end-to-end analytics project to evaluate campaign effectiveness and identify high-value customer segments for targeted marketing.",
@@ -76,11 +117,12 @@ const projects = [
     ]
   },
   {
-    id: 3,
+    id: 4,
     name: "RevoHospital: Operational Performance Dashboard",
     href: "#",
     imageSrc: "\Data Visualization.jpg",
     used: "Tableau • Level of Detail (LOD) • Table Calculations • Dashboard Development • Data Visualization ",
+    disclaimer: "This analysis is for educational purposes and does not reflect theactual business metrics of RevoHospital. The dataset is synthetic and was designed to simulate realistichospital operations patterns.",
     tool: "Tableau",
     skillset : "Business Understanding • KPI Definition • Dashboard Development • Data Visualization • Business Intelligence Dashboard • Level of Detail (LOD) • Table Calculations • Interactive Dashboard Development • Scorecards • Heatmaps Analysis • Trend Analysis • Ranking Analysis • Distribution Analysis • Geographic Visualization • Insight Generation • Business Recommendation",
     description: "Developed an interactive Tableau dashboard to monitor hospital capacity utilization and operational performance, enabling data-driven decisions on resource allocation and service efficiency.",
@@ -113,11 +155,12 @@ const projects = [
     ]
   },
   {
-    id: 4,
+    id: 5,
     name: "Optimization of RevoBank Credit Card Transactions",
     href: "#",
     imageSrc: "\Python.jpg",
     used: "Python • Data Cleaning • EDA • K-Means Clustering • Customer Profiling",
+    disclaimer: "-",
     tool: "Python • Google Colab • Pandas • NumPy • Matplotlib • Seaborn",
     skillset : "Business Understanding • Data Cleaning • Exploratory Data Analysis (EDA) • Descriptive Statistics • Correlation Analysis • Customer Segmentation • K-Means Clustering • Financial Risk Analysis • Customer Profiling • Insight Generation • Business Recommendation",
     description: "Analyzed customer transaction behavior and financial risk using Python to identify customer segments and provide data-driven recommendations for credit optimization and customer retention strategies.",
@@ -150,11 +193,12 @@ const projects = [
     ]
   },
   {
-    id: 5,
+    id: 6,
     name: "RevoGrocers: Sales Performance Analysis",
     href: "#",
     imageSrc: "\SQL.jpg",
     used: "SQL (Google BigQuery) • KPI Definition • EDA • CTEs • Window Functions • Sales Performance Analysis",
+    disclaimer: "This analysis is based on a publicly available Kaggle dataset and does not reflect real-world or business insight. RevoGrocers is a fictional entity, and the result presented here are purely for educational purposes.",
     tool: "SQL (Google BigQuery)",
     skillset : "Business Understanding • Exploratory Data Analysis (EDA) • KPI Definition • SQL • JOINs • Common Table Expressions (CTEs) • Aggregate Functions • Window Functions • Subqueries • Ranking Functions • Sales Performance Analysis • Revenue Contribution Analysis • Pricing Strategy Analysis • Customer Behavior Analysis • Repeat Purchase Analysis • High-Value Customer Analysis • Insight Generation • Business Recommendation",
     description: "Analyzed product category performance and customer purchasing behavior using SQL to identify revenue drivers and provide data-driven recommendations for sales optimization and revenue growth.",
@@ -188,11 +232,12 @@ const projects = [
     ]
   },
   {
-    id: 6,
+    id: 7,
     name: "TokoBli E-commerce: Campaign Evaluation & Product Page Analysis",
     href: "#",
     imageSrc: "\Statistics & Spreadsheet [Int].jpg",
     used: "Microsoft Excel • Data Cleaning • Descriptive Statistics • EDA • Pivot Table • A/B Testing • T-Test • SMART Framework",
+    disclaimer: "Analysis performed on provided e-commerce dataset for educational demonstration. Insights and recommendations are based strictly on TokoBli dataset.",
     tool: "Microsoft Excel • Google Sheets • XLMiner",
     skillset : "Business Understanding • Data Cleaning & Preparation • Pivot Table • Descriptive Statistics • Campaign Performance Analysis • KPI Analysis • Outlier Detection (IQR) • Exploratory Data Analysis (EDA) • A/B Testing • Independent Two-Sample T-Test • Business Recommendation • SMART Framework",
     description: "Evaluated marketing campaign effectiveness and product page performance using descriptive statistics and hypothesis testing to identify revenue-driving strategies and recommend data-driven improvements for future campaigns.",
@@ -227,11 +272,12 @@ const projects = [
     ]
   },
   {
-    id: 7,
+    id: 8,
     name: "TokoBli E-commerce: Analyzing and Predicting Customer Spending Behavior",
     href: "#",
     imageSrc: "\Statistics & Spreadsheet [Adv].jpg",
     used: "Microsoft Excel • Correlation Analysis • Multiple Linear Regression • Simultaneous Hypothesis Testing (F-Test) • Partial Hypothesis Testing (t-Test) • Coefficient Interpretation • Predictive Analysis",
+    disclaimer: "Analysis performed on provided e-commerce dataset for educational demonstration. Insights and recommendations are based strictly on TokoBli dataset.",
     tool: "Microsoft Excel • Google Sheets",
     skillset : "Business Understanding • Correlation Analysis • Multiple Linear Regression • Simultaneous Hypothesis Testing (F-Test) • Partial Hypothesis Testing (t-Test) • Coefficient Interpretation • Predictive Analysis • Customer Spending Prediction • Insight Generation • Business Recommendation",
     description: "Developed a multiple linear regression model to predict yearly customer spending and identify the key factors that influence customer value, helping support more effective marketing and customer retention strategies.",
@@ -372,6 +418,12 @@ export default function Projects() {
             <h3 className="font-bold text-2xl mb-4">
               Project Details
             </h3>
+
+           <p className="mt-6">
+              <strong>⚠️ DISCLAIMER</strong>
+              <br />
+              {selectedProject.disclaimer}
+            </p>
 
             <p className="mt-6">
               <strong>Tools:</strong>
