@@ -18,15 +18,15 @@ const educations = [
   },
   {
     logo: "/LogoUP.png",
-    school: "Universitas Pancasila Jakarta",
+    school: "Pancasila University Jakarta",
     degree: "Bachelor’s Degree in Informatics Engineering",
     duration: "2014 - 2016",
     desc: "Designed and developed a web-based Blood Bag Management Information System for the Indonesian Red Cross (UTD PMI) using PHP Laravel and MySQL to improve blood donor operations and blood bag management. The system streamlined donor data recording, blood inventory tracking, and operational reporting, enabling faster access to information and improving service efficiency. By digitizing manual processes, the system enhanced data accuracy, accessibility, and monitoring of blood donation activities.",
     gpa: "",
   },
   {
-    logo: "/LogoPoltek.jpg",
-    school: "Politeknik Telkom Bandung",
+    logo: "/LogoTelU.png",
+    school: "Telkom University Bandung",
     degree: "Diploma’s Degree in Informatics Management",
     duration: "2008 - 2011",
     desc: "Designed and developed a web-based Blood Donor Information System for the KSR PMI Unit at Telkom Polytechnic using PHP and MySQL to enhance the efficiency of blood donation operations within the campus community. The system streamlined donor data management and operational reporting, enabling faster access to information and supporting more effective decision-making. By digitizing previously manual processes, the solution improved data accuracy, accessibility, and the monitoring of blood donation activities, resulting in more efficient and reliable operational workflows.",
