@@ -5,6 +5,86 @@ import "aos/dist/aos.css";
 const projects = [
    {
     id: 1,
+    name: "Customer Churn Prediction",
+    href: "#",
+    imageSrc: "\Customer Churn Prediction.jpg",
+    used: "Machine Learning • Feature Selection • Predictive Modeling • Model Evaluation • Feature Importance Analysis • Churn Prediction",
+    disclaimer: "Customer Churn Prediction is a virtual internship project focused on applying machine learning to proactively identify customers at risk of churn and support data-driven retention strategies. Supervised by RevoU and Telkom, this project develops expertise in transforming customer data into predictive insights through an end-to-end machine learning workflow, including exploratory data analysis, feature engineering, model development and optimization, evaluation, explainability, and translating model results into actionable business recommendations.",
+    tool: "Python • Google Colab • Pandas • NumPy • Matplotlib • Seaborn • Scikit-learn",
+    skillset : "Business Understanding • End-to-End Analytics • Data Preparation • Exploratory Data Analysis (EDA) • Feature Selection • Classification Modeling • Logistic Regression • Random Forest • Gradient Boosting • Model Evaluation • Feature Importance • Churn Prediction • Risk Segmentation • Business Recommendations",
+    description: "Built and evaluated three machine learning models, selecting Gradient Boosting with 97.7% accuracy and 0.982 ROC-AUC to identify 285 high-risk customers and support proactive retention strategies.",
+    deck : "https://drive.google.com/file/d/1DJjycbnXPZ1BO1nXq6ax-y2f5enbIYDA/view?usp=sharing",
+    images: [
+      "/Customer Churn Prediction1.jpg", "/Customer Churn Prediction2.jpg", "/Customer Churn Prediction3.jpg", "/Customer Churn Prediction4.jpg", "/Customer Churn Prediction5.jpg", "/Customer Churn Prediction6.jpg", "/Customer Churn Prediction7.jpg"
+    ],
+    background: "Customer churn is a major challenge for subscription-based businesses, particularly when retention management relies on reactive interventions. This project aimed to develop a machine learning model to identify customers at risk of discontinuing their subscriptions and support more proactive, data-driven retention strategies.",
+    objective: [
+	"Identify customers at risk of churn.",
+	"Analyze behavioral patterns associated with churn.",
+	"Compare machine learning models to select the best-performing model.",
+	"Support proactive, risk-based customer retention strategies."
+    ],
+    methodology: [
+    	"Business Understanding: Defined the churn prediction objective and its application to customer retention.",
+	"Data Preparation: Prepared the dataset, selected predictive features, split the data into training and testing sets, and applied feature scaling where needed.",
+	"Exploratory Data Analysis (EDA): Examined customer profiles, network quality, payment behavior, customer experience, and usage patterns associated with churn.",
+	"Model Development: Trained and compared Logistic Regression, Random Forest, and Gradient Boosting classifiers.",
+	"Model Evaluation: Evaluated model performance using Accuracy, Precision, Recall, F1-Score, ROC-AUC, and a Confusion Matrix.",
+	"Model Implementation: Applied the selected model to generate churn predictions, probabilities, and customer risk categories.",
+	"Business Recommendations: Translated predictive insights into actionable customer retention strategies."
+   ],
+   result: [
+    	"Selected Gradient Boosting as the final model, achieving 97.70% accuracy and 0.982 ROC-AUC.",
+	"Achieved 83.97% recall and an 87.77% F1-score for the selected model.",
+	"Identified network quality as the most influential predictive feature, followed by usage patterns and customer activity.",
+	"Classified 285 customers as high-risk, with predicted churn probabilities of at least 70%, in the implementation dataset.",
+	"Developed risk-based retention recommendations focused on network quality, customer usage, payment behavior, and complaint resolution."
+  ]
+  },
+
+
+  {
+    id: 2,
+    name: "Residential Broadband Customer Analytics",
+    href: "#",
+    imageSrc: "\Residential Broadband Customer Analytics.jpg",
+    used: "Google BigQuery • SQL • Tableau • Customer & Revenue Analysis • Network Performance Analysis • Customer Experience Analysis • Churn Analysis • Dashboard Development",
+    disclaimer: "Residential Broadband Customer Analytics Dashboard is focused on transforming fragmented operational data into an interactive dashboard that enables holistic monitoring of customer, revenue, network performance, customer experience, and retention. Supervised by RevoU and Telkom Indonesia, this project develops skills in analyzing business data, identifying performance trends and customer patterns, building decision-support dashboards, and delivering actionable insights and recommendations for business stakeholders.",
+    tool: "Google BigQuery • SQL • Tableau",
+    skillset : "Business Understanding • Data Quality Assessment • Data Preparation • Data Modeling • Exploratory Data Analysis (EDA) • KPI Analysis • Customer & Revenue Analysis • Network Performance Analysis • Customer Experience Analysis • Churn Analysis • Dashboard Development • Data Visualization • Business Recommendations",
+    description: "Analyzed data from 18,000 residential broadband customers across revenue, network performance, customer experience, and churn metrics to identify operational issues and generate data-driven recommendations for improving customer retention, service quality, and revenue performance.",
+    deck : "https://drive.google.com/file/d/1JQdwyFT0gOusJTF8aGH3J-RoDj-D7B53/view?usp=sharing",
+    images: [
+      "/Residential Broadband Customer Analytics1.jpg", "/Residential Broadband Customer Analytics2.jpg", "/Residential Broadband Customer Analytics3.jpg", "/Residential Broadband Customer Analytics4.jpg", "/Residential Broadband Customer Analytics5.jpg", "/Residential Broadband Customer Analytics6.jpg", "/Residential Broadband Customer Analytics7.jpg", "/Residential Broadband Customer Analytics8.jpg", "/Residential Broadband Customer Analytics9.jpg"
+    ],
+    background: "Residential broadband providers need to continuously monitor customer growth, recurring revenue, network performance, customer complaints, and churn to maintain service quality and business growth. This project analyzed these dimensions to identify operational issues, understand customer retention risks, and provide data-driven insights for business decision-making.",
+    objective: [
+	"Analyze customer and revenue growth.",
+	"Evaluate internet package and network performance.",
+	"Monitor downtime, latency, and overall network quality.",
+	"Analyze customer complaints and resolution performance.",
+	"Identify churn risks and customer retention patterns.",
+	"Provide actionable insights to support data-driven decision-making."
+    ],
+    methodology: [
+    	"Business & Data Understanding: Defined analytical objectives and KPIs covering customer, revenue, network, customer experience, and churn performance.",
+	"Data Preparation: Performed data quality checks covering data granularity, data types, missing values, duplicates, and inconsistencies.",
+	"Data Modeling: Created analytical views including customer_base, network_base, and experience_base to structure data for analysis.",
+	"EDA: Compared customer, revenue, network, complaint, and churn patterns across time, districts, packages, contracts, and customer segments.",
+	"Dashboard Development: Built three interactive Tableau dashboards covering Customer & Revenue, Network Performance, and Customer Experience.",
+	"Insight & Recommendation: Identified performance gaps and translated findings into recommendations for network improvement, customer experience, revenue optimization, and retention."
+   ],
+   result: [
+    	"Customer & Revenue: 18,000 active customers generated Rp5.206M MRR with Rp261K ARPU.",
+	"Network: Network quality averaged 79, with 4 hours of downtime and 25.43 ms latency, highlighting the need for continued network monitoring.",
+	"Customer Experience: 2,358 complaints were recorded with an average resolution time of 4 days, indicating opportunities to improve support efficiency.",
+	"Retention: Churn reached 10%, with churn increasing significantly from July 2025 and peaking around January 2026.",
+	"Business Actions: Prioritized retention for Monthly-contract and 50 Mbps customers, improved network monitoring, accelerated complaint resolution, and optimized package pricing and upselling strategies."
+  ]
+  },
+
+  {
+    id: 3,
     name: "Demand Analysis & Stock Planning Forecasting for Quick Commerce",
     href: "#",
     imageSrc: "\Forecasting.jpg",
@@ -31,7 +111,6 @@ const projects = [
 	"Compared Naive, Moving Average, and Exponential Smoothing models using MAE and MAPE, selecting Moving Average as the best-performing model with 4.43% MAPE and 17,299.67 MAE.",
 	"Generated an August 2022 forecast of 377,148 units and distributed the forecast across product categories based on demand share.",
 	"Translated forecast results and category volatility into stock-priority recommendations to support replenishment planning."
-
    ],
    result: [
     	"Demand growth & stabilization: Demand increased substantially from January to July, with a peak in April followed by a 20.79% decline in May and recovery during June–July.",
@@ -43,7 +122,46 @@ const projects = [
   },
 
   {
-    id: 2,
+    id: 4,
+    name: "Loan Portfolio Analysis",
+    href: "#",
+    imageSrc: "\Loan Portfolio Analysis.jpg",
+    used: "SQL → portfolio metrics → cohort analysis → anomaly profiling",
+    disclaimer: "Loan Portfolio Analysis project is a part of RevoU Data Insight Project, a 4-week case study designed to analyze customized datasets and address business challenges. Supervised by RevoU, this project hones analytical skills, strengthens problem-solving abilities, and guides students in delivering actionable insights.",
+    tool: "Google BigQuery • SQL • Google Colab • Python",
+    skillset : "Business Understanding • KPI & Risk Metric Analysis • Cohort Analysis • Customer Profiling • Risk Driver Analysis • Insight Generation • Business Recommendation • Loan Underwriting Analysis",
+    description: "Conducted an end-to-end loan portfolio risk analysis using SQL to identify an underperforming cohort, profile key risk drivers, and develop data-driven recommendations to strengthen loan underwriting.",
+    deck : "https://drive.google.com/file/d/1PwRJUbKNhMo68g6osxkcaFaHmhFJ207E/view?usp=sharing",
+    images: [
+      "/Loan Portfolio Analysis1.jpg", "/Loan Portfolio Analysis2.jpg", "/Loan Portfolio Analysis3.jpg", "/Loan Portfolio Analysis4.jpg"
+    ],
+    background: "[Finance] RevoFin a lending company, conducted a loan portfolio review to assess portfolio health, identify potential repayment risks, and understand customer characteristics associated with delinquency. The analysis focused on Outstanding (OS), Current ENR, and TKB30, followed by cohort-level analysis to identify potential risk concentrations and inform improvements to the loan underwriting process.",
+    objective: [
+	"Analyze loan portfolio performance by evaluating outstanding loans, risk metrics, and customer characteristics.",
+	"Identify key risk patterns based on loan and customer profiles.",
+	"Assess customer risk profiles to support more effective credit decision-making.",
+	"Provide data-driven insights to help Risk Management improve lending strategies and portfolio risk management."
+    ],
+    methodology: [
+    	"Defined the business objectives, portfolio scope, and key risk metrics including Customer Count, Outstanding (OS), ENR, ENR Rate, and TKB30.",
+	"Cleaned and standardized customer identifiers and filtered the portfolio to Current, In Grace Period, Late, and Default loan statuses.",
+	"Calculated portfolio-level and monthly cohort-level OS, ENR, and TKB30 using SQL.",
+	"Identified April 2014 as the anomaly cohort based on its lowest TKB30 of 93.27%.",
+	"Performed deep-dive customer profiling by comparing home ownership, annual income, employment length, state, loan purpose, and interest rate between the anomaly cohort and other cohorts.",
+	"Translated the findings into risk-based underwriting recommendations and early-warning indicators."
+   ],
+   result: [
+    	"Portfolio Performance: The portfolio achieved a strong 98.10% TKB30 with $2.80B in outstanding loans.",
+	"Cohort Risk: Risk performance varied across cohorts, with April 2014 recording the lowest TKB30 at 93.27%.",
+	"Income & Home Ownership: The anomaly cohort had a lower median income ($64.9K vs. $70K) and lower home ownership compared to other cohorts.",
+	"Interest Rate: The anomaly cohort had a higher median interest rate (15.61% vs. 12.12%), indicating higher-risk loan exposure.",
+	"Loan Purpose: Debt Consolidation accounted for a larger share of loans in the anomaly cohort (64.15% vs. 55.06%).",
+	"Geographic Exposure: The anomaly cohort showed higher exposure in Georgia (10.38% vs. 0.76%), providing a potential signal for further risk monitoring."
+  ]
+  },
+
+  {
+    id: 5,
     name: "Analisis Dampak Penggunaan AI Generatif terhadap Performa Akademik dan Kesejahteraan Mahasiswa",
     href: "#",
     imageSrc: "\BNSP.jpg",
@@ -79,7 +197,7 @@ const projects = [
   },
 
   {
-    id: 3,
+    id: 6,
     name: "Campaign Effectiveness & Customer Responsiveness Analysis",
     href: "#",
     imageSrc: "\DEEPP.jpg",
@@ -117,7 +235,7 @@ const projects = [
     ]
   },
   {
-    id: 4,
+    id: 7,
     name: "RevoHospital: Operational Performance Dashboard",
     href: "#",
     imageSrc: "\Data Visualization.jpg",
@@ -155,7 +273,7 @@ const projects = [
     ]
   },
   {
-    id: 5,
+    id: 8,
     name: "Optimization of RevoBank Credit Card Transactions",
     href: "#",
     imageSrc: "\Python.jpg",
@@ -193,7 +311,7 @@ const projects = [
     ]
   },
   {
-    id: 6,
+    id: 9,
     name: "RevoGrocers: Sales Performance Analysis",
     href: "#",
     imageSrc: "\SQL.jpg",
@@ -232,7 +350,7 @@ const projects = [
     ]
   },
   {
-    id: 7,
+    id: 10,
     name: "TokoBli E-commerce: Campaign Evaluation & Product Page Analysis",
     href: "#",
     imageSrc: "\Statistics & Spreadsheet [Int].jpg",
@@ -272,7 +390,7 @@ const projects = [
     ]
   },
   {
-    id: 8,
+    id: 11,
     name: "TokoBli E-commerce: Analyzing and Predicting Customer Spending Behavior",
     href: "#",
     imageSrc: "\Statistics & Spreadsheet [Adv].jpg",
